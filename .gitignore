@@ -34,7 +34,6 @@ Thumbs.db
 # Ignore Python-specific environment files
 Pipfile
 Pipfile.lock
-poetry.lock
 
 # Ignore other development tool files
 *.bak
