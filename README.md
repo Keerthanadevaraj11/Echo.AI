@@ -33,7 +33,13 @@ Echo.AI is an emotional support chatbot designed to help users by listening to t
     poetry install
     ```
 
-5. **Run the streamlit chatbot**:
+5. **Configure environment variables**:
+    Create a .env file in the root directory of the project and add the following environment variables with your own API keys:
+    ```bash
+    GOOGLE_API_KEY=<your-google-api-key>
+    ```
+
+6. **Run the streamlit chatbot**:
     ```bash
     streamlit run mood_analysis.py
     ```
